@@ -1,13 +1,20 @@
+import Header from "./components/Header"
+import Tabs
+ from "./components/Tabs"
+import TodoInput from "./components/TodoInput"
+import TodoList from "./components/TodoList"
 
-
+import './index.css'
+import './fanta.css'
 function App() {
   
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+     <Header />
+<Tabs/>
+<TodoList />
+<TodoInput/>
     </>
   )
 }
